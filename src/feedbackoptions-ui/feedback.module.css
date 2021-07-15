@@ -1,0 +1,29 @@
+.button {
+  min-width: 70px;
+  height: auto;
+  padding: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: background-color, color, 200ms linear;
+  text-transform: capitalize;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: royalblue;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 20px;
+}
